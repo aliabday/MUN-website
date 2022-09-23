@@ -3,6 +3,12 @@ header {
     background: white;
   }
   
+  .navbar{
+    background: rgba(0, 0, 0, 0.546);
+  }
+
+
+
   .special-heading-container {
     padding: 5% 5% 10% 5%;
     text-align: center;
@@ -141,6 +147,8 @@ header {
     background: linear-gradient(to left, rgb(56, 12, 255), rgb(4, 97, 154), rgb(6, 189, 213));
     animation: line-slide 1.5s ease-in-out forwards;
   }
+
+  
   
   p.pink:before {
     content: "";
