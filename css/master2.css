@@ -20,7 +20,7 @@ a:visited, a:active, a {
   position: fixed;
   z-index: 3;
   transition: 0.5s;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .flex-container {
   display: flex;

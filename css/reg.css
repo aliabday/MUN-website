@@ -1,3 +1,13 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 3;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 #committee-link {
   display: none;
 }
@@ -32,18 +42,18 @@
   cursor: pointer;
 }
 .common-button button:hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #b01116;
 }
 
 #home {
-  background-image: url(https://i.imgur.com/NreDqVu.jpg);
+  background-image: url();
   background-attachment: fixed;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .home {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
 }
 .logo-overlap img {
   height: auto;
